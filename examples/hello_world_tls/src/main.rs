@@ -1,5 +1,5 @@
 //! A Hello World example application for working with Gotham.
-use futures_rustls::rustls::{
+use rustls::{
     self,
     internal::pemfile::{certs, pkcs8_private_keys},
     NoClientAuth,

@@ -9,4 +9,4 @@ edition = "2018"
 gotham = { path = "../../gotham" }
 
 mime = "0.3"
-futures-rustls = { git = "https://github.com/quininer/tokio-rustls", branch = "futures-rustls" }
+rustls = "0.18.0"
